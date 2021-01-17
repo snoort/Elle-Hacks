@@ -1,7 +1,7 @@
 var initialScore = 0;
 var newScore = 0;
 
-function ScoreAdder(value, id） {
+function ScoreAdder(value, id){
     var checkdiv = document.getElementById(`${id}`);
     var checkbox = checkdiv.querySelector('input');
     if(checkbox.checked === false){
@@ -9,7 +9,7 @@ function ScoreAdder(value, id） {
         console.log(newScore);
     }
     if (checkbox.checked === true){
-        newScore = newScore +1;
+        newScore = newScore + 1;
         console.log(newScore);
     }
 
@@ -21,6 +21,3 @@ function ScoreRes(){
     score.innerText = newScore;
 }
 
-function donate(){
-    var nums = prompt("Plese enter the credits you want to donate");
-}
