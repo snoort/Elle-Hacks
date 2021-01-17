@@ -12,3 +12,12 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
     }
 }
+
+File file = new File("Credits.html")
+ 
+ try {
+    Files.write(file.toPath(), content.getBytes());
+    Desktop.getDesktop().browse(file.toURI());
+} catch (IOException e) {
+  // TODO Auto-generated catch block
+}
