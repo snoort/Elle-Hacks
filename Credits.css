@@ -1,0 +1,88 @@
+#top{
+    /*Styling the top "header" for the page*/
+    background-color: royalblue;
+    text-align: right;
+}
+#title{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+#login{
+    font-size: 1em;
+    background-color: azure;
+    border: solid;
+    border-width: 1px;
+    border-color: CornflowerBlue;
+    border-radius: 10px;
+}
+#addCredits{
+    font-size: 1em;
+    border: solid;
+    border-width: 1px;
+    border-color:cornflowerblue;
+    border-radius: 10px;
+    background-color:azure;
+}
+#donate{
+    font-size: 1.2em;
+    border: solid;
+    border-width: 1px;
+    border-color:cornflowerblue;
+    border-radius: 10px;
+    background-color:aliceblue;
+}
+.earning{
+    background-color: aliceBlue;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-family: "Courier New", Courier, monospace;
+}
+.subtitle{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.explanation{
+    text-align: center;
+    font-size: 0.8em;
+}
+.box{
+    /*A blue box with rounded corners div*/
+    border: solid;
+    border-width: 1px;
+    border-color: CornflowerBlue;
+    margin: 0px 2px 15px 2px;
+    padding: 0px 17px 5px 17px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+.boxTitle{
+    font-size: 1.2em;
+    text-align: center
+}
+.donating{
+    background-color:azure;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: "Courier New", Courier, monospace;
+}
+.dealing{
+    background-color: lightcyan;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-family: "Courier New", Courier, monospace;
+}
+.figure{
+    padding-left: 300px;
+}
+#copyright{
+    background-color: royalblue;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
