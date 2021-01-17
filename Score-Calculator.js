@@ -21,3 +21,6 @@ function ScoreRes(){
     score.innerText = newScore;
 }
 
+function donate(){
+    var credit = prompt('Please enter the credit you want to donate');
+}
